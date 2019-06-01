@@ -14,6 +14,10 @@ on its item. Afterwards you can filter the existing TNS aliases by typing parts
 of the TNS alias names.
 3. All previously executed items are available through the history.
 
+## Demo
+
+![demo](media/sqlplus_launch.gif)
+
 ## Prerequisites
 
 The plugin tries to discover a working SQL\*Plus executable through the `PATH` environment variable.
