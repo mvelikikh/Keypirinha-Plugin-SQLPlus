@@ -3,15 +3,16 @@
 This is sqlplus, a plugin for the
 [Keypirinha](http://keypirinha.com) launcher.
 
-This plugin allows to launch SQL*Plus and filter through TNS aliases 
+This plugin allows to launch SQL\*Plus and filter through TNS aliases 
 from tnsnames.ora.
-1. You can start SQL*Plus by entering `sqlplus`, which is the default label 
+1. You can start SQL\*Plus by entering `sqlplus`, which is the default label 
 that can be specified in the [sqlplus.ini](src/sqlplus.ini) file, and selecting any of the available 
 TNS aliases. When the first `@` sign is entered, the plugin tries to filter TNS aliases 
 using the string provided after the sign.
 2. Alternatively, the SQL\*Plus catalog item can be selected by pressing `<TAB>`
 on its item. Afterwards you can filter the existing TNS aliases by typing parts 
 of the TNS alias names.
+3. All previously executed items are available through the history.
 
 ## Prerequisites
 
